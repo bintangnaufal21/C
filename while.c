@@ -8,8 +8,8 @@ void main(){
     //!perulangan while
     while (ulangi == 'y')
     {
-        printf("Apakah kamu mau mengulang");
-        printf("Jawab (y/N)");
+        printf("Apakah kamu mau mengulang?\n");
+        printf(" Jawab (y/N): ");
         scanf("%c", &ulangi);
         
         //!increment counter
