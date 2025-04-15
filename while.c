@@ -2,15 +2,15 @@
 
 void main(){
 
-    char ulangi = 'y';
+    char ulangi ='y';
     int counter = 0;
 
     //!perulangan while
-    while (ulangi == 'y')
+    while(ulangi == 'y')
     {
         printf("Apakah kamu mau mengulang?\n");
         printf(" Jawab (y/N): ");
-        scanf("%c", &ulangi);
+        scanf(" %c", &ulangi);
         
         //!increment counter
         counter++;
